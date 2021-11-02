@@ -48,10 +48,12 @@ body {
     transition: 0.2s;
 }
 /*==============================*/
-
+.inf{
+    margin-top:100px;
+}
 .inf__title{
-    margin:600px 0 0 24%;
     font-size: 25px;
+    text-align: center;
 }
 .inf__blocks{
     text-align: center;
@@ -93,7 +95,7 @@ body {
   height: auto;
   z-index: 9999;
   width: 100%;
-  margin-left: 28%;
+  margin-left: 27%;
 }
 .dark__over{
   background: #000;
@@ -124,3 +126,12 @@ body {
 .wis{
   display: block;
 }
+.wrapper{
+    text-align: center;
+    margin-top: 100px;
+}
+.swiper-button-next, .swiper-button-prev {
+    padding-top: 150px;
+}
+
+

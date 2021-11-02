@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
 </head>
 
 <body>
@@ -28,18 +30,38 @@
                 <div class="nav__item">Example</div>
             </nav>
         </header>
+        <div class="wrapper">
+            <div class="immage__slider swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="IMG/img__ex.jpg" alt="cat" height="30%" width="30%">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="IMG/img__ex.jpg" alt="img" width="30%" height="30%">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="IMG/img__ex.jpg" alt="cat" width="30%" height="30%">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <!-- ./swipper-container -->
         <section class="inf">
             <div class="inf__title">
                 <h2 class="service">We Have Everything Your Pet Needs.</h2>
                 <p class="under__service">I'm a paragraph. Click here to add your own text and edit me. Let your users
                     get to know you.</p>
             </div>
+
             <!--./inf__title-->
             <div class="inf__blocks">
                 <div class="inf__story">
                     <img src="IMG/cat__icon.png" alt="star" class="inf__img" width="50px" height="50px">
                     <h3 class="story__title">Some stories</h3>
-                    <p class="story__under">Lorem ipsum dolor sit amet <br> vvvvvvv</p>
+                    <p class="story__under">Lorem ipsum dolor sit amet <br></p>
                     <button class="story__button">
                         <a href="" class="story__ref">Read More >></a>
                     </button>
@@ -47,7 +69,7 @@
                 <div class="inf__story">
                     <img src="IMG/cat__icon.png" alt="star" class="inf__img" width="50px" height="50px">
                     <h3 class="story__title">Some stories</h3>
-                    <p class="story__under">Lorem ipsum dolor sit amet <br> vvvvvvv </p>
+                    <p class="story__under">Lorem ipsum dolor sit amet <br></p>
                     <button class="story__button">
                         <a href="" class="story__ref">Read More >></a>
                     </button>
@@ -67,7 +89,9 @@
         </div>
     </div>
     <!--./container-->
-    <script src="main.js"></script>
+    <script src="Script/main.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="Script/script.js"></script>
 </body>
 
 </html>
