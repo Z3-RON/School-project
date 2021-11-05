@@ -43,7 +43,7 @@ body {
     transition: 0.2s;
     cursor: pointer;
 }
-.nav__item:hover {
+.hover:hover {
     color: #8FD3E8;
     transition: 0.2s;
 }
@@ -132,6 +132,31 @@ body {
 }
 .swiper-button-next, .swiper-button-prev {
     padding-top: 150px;
+}
+/* =================================================== */
+.img{
+    max-width: 550px;
+    margin-left: 3%;
+}
+.item{
+    width: 80%;
+    height: auto;
+}
+.story{
+    margin-top: 12%;
+}
+.inner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.title {
+     color: #8FD3E8;
+     font-family: 'Chelsea Market', cursive;
+     font-weight: 900;
+}
+.story__under__title{
+    font-size: 105%;
 }
 
 
