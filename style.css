@@ -90,12 +90,12 @@ body {
 /*=========================*/
 .gallery__z{
   position: absolute;
-  max-width: 630px;
+  max-width: 600px;
   top: 1000px;
+  width: 100%;
   height: auto;
   z-index: 9999;
-  width: 100%;
-  margin-left: 27%;
+  margin-left: 30%;
 }
 .dark__over{
   background: #000;
@@ -115,7 +115,7 @@ body {
   cursor: pointer;
   position: absolute;
   top: 0;
-  right: 65px;
+  right: 20%;
   background: url('IMG/cross.png') no-repeat center center;
   background-size: 16px 16px;
   z-index: 9999;
