@@ -6,7 +6,7 @@ document.body.append(overlay);
 
 js__click.onclick = function () {
     element.className = 'gallery__z';
-    element.innerHTML = '<img id="click" src="IMG/img__ex.jpg" alt="img" class="item" width="90%" hight="88%"> <div class="popup"></div>';
+    element.innerHTML = '<img id="click" src="IMG/pct1.jpg" alt="img" class="item" width="90%" hight="88%"> <div class="popup"></div>';
     console.log('Фото выведенно');
 
     overlay.className = 'dark__over';
@@ -21,7 +21,7 @@ js__click.onclick = function () {
 
 js__click1.onclick = function () {
     element.className = 'gallery__z';
-    element.innerHTML = '<img id="click" src="IMG/img__ex.jpg" alt="img" class="item" width="90%" hight="88%"> <div class="popup"></div>';
+    element.innerHTML = '<img id="click" src="IMG/pct2.jpg" alt="img" class="item" width="90%" hight="88%"> <div class="popup"></div>';
     console.log('Фото выведенно');
 
     overlay.className = 'dark__over';
@@ -36,7 +36,7 @@ js__click1.onclick = function () {
 
 js__click2.onclick = function () {
     element.className = 'gallery__z';
-    element.innerHTML = '<img id="click" src="IMG/img__ex.jpg" alt="img" class="item" width="90%" hight="88%"> <div class="popup"></div>';
+    element.innerHTML = '<img id="click" src="IMG/pct3.jpg" alt="img" class="item" width="90%" hight="88%"> <div class="popup"></div>';
     console.log('Фото выведенно');
 
     overlay.className = 'dark__over';
@@ -51,7 +51,7 @@ js__click2.onclick = function () {
 
 js__click3.onclick = function () {
     element.className = 'gallery__z';
-    element.innerHTML = '<img id="click" src="IMG/img__ex.jpg" alt="img" class="item" width="90%" hight="88%"> <div class="popup"></div>';
+    element.innerHTML = '<img id="click" src="IMG/pct4.jpg" alt="img" class="item" width="90%" hight="88%"> <div class="popup"></div>';
     console.log('Фото выведенно');
 
     overlay.className = 'dark__over';
@@ -66,7 +66,7 @@ js__click3.onclick = function () {
 
 js__click4.onclick = function () {
     element.className = 'gallery__z';
-    element.innerHTML = '<img id="click" src="IMG/img__ex.jpg" alt="img" class="item" width="90%" hight="88%"> <div class="popup"></div>';
+    element.innerHTML = '<img id="click" src="IMG/pct5.jpg" alt="img" class="item" width="90%" hight="88%"> <div class="popup"></div>';
     console.log('Фото выведенно');
 
     overlay.className = 'dark__over';
@@ -81,7 +81,7 @@ js__click4.onclick = function () {
 
 js__click5.onclick = function () {
     element.className = 'gallery__z';
-    element.innerHTML = '<img id="click" src="IMG/img__ex.jpg" alt="img" class="item" width="90%" hight="88%"> <div class="popup"></div>';
+    element.innerHTML = '<img id="click" src="IMG/pct6.jpg" alt="img" class="item" width="90%" hight="88%"> <div class="popup"></div>';
     console.log('Фото выведенно');
 
     overlay.className = 'dark__over';
@@ -96,7 +96,7 @@ js__click5.onclick = function () {
 
 js__click6.onclick = function () {
     element.className = 'gallery__z';
-    element.innerHTML = '<img id="click" src="IMG/img__ex.jpg" alt="img" class="item" width="90%" hight="88%"> <div class="popup"></div>';
+    element.innerHTML = '<img id="click" src="IMG/pct7.jpg" alt="img" class="item" width="90%" hight="88%"> <div class="popup"></div>';
     console.log('Фото выведенно');
 
     overlay.className = 'dark__over';
@@ -111,7 +111,7 @@ js__click6.onclick = function () {
 
 js__click7.onclick = function () {
     element.className = 'gallery__z';
-    element.innerHTML = '<img id="click" src="IMG/img__ex.jpg" alt="img" class="item" width="90%" hight="88%"> <div class="popup"></div>';
+    element.innerHTML = '<img id="click" src="IMG/pct8.jpg" alt="img" class="item" width="90%" hight="88%"> <div class="popup"></div>';
     console.log('Фото выведенно');
 
     overlay.className = 'dark__over';
